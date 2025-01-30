@@ -1,0 +1,15 @@
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Здесь можно добавить код для отправки данных на сервер
+    // Например, с помощью fetch или XMLHttpRequest
+
+    alert('Спасибо за ваше сообщение, ' + name + '! Мы свяжемся с вами в ближайшее время.');
+
+    // Очистка формы
+    document.getElementById('feedbackForm').reset();
+});

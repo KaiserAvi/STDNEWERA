@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный Telegram-канал</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Учебный Telegram-канал</h1>
+            <p>Ваш источник полезной информации и знаний!</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>О канале</h2>
+            <p>Наш Telegram-канал предлагает уникальные материалы для обучения, советы, лайфхаки и многое другое. Подписывайтесь, чтобы быть в курсе всего нового!</p>
+            <a href="https://t.me/StudyNewWEra" class="btn" target="_blank">Подписаться</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Обратная связь</h2>
+            <p>Если у вас есть вопросы или предложения, напишите нам:</p>
+            <form id="feedbackForm">
+                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Учебный Telegram-канал. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
